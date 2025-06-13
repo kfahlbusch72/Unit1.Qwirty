@@ -1,5 +1,5 @@
-footer.page nav {
-  background: var(--fg);
+footer.page {
+  background: blue;
   color: white;
 
   padding: 2rem 0.5rem;
@@ -27,7 +27,7 @@ footer.page menu a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 100px) {
   footer.page {
     flex-direction: row;
     justify-content: center;

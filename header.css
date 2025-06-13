@@ -81,7 +81,7 @@ header.page .bottom .ad {
   flex-shrink: 0;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 250px) {
   header.page menu.screen-lg {
     display: flex;
   }
