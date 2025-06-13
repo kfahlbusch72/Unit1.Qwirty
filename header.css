@@ -1,5 +1,5 @@
 header.page nav {
-  background-color: dodgerblue;
+  background: var(--fg);
   color: white;
 }
 
@@ -24,28 +24,29 @@ header.page menu.screen-lg {
 }
 
 header.page menu li {
-  padding: 0.25px;
+  padding: 0.25rem;
 }
 
 header.page menu li:not(:last-child) {
-  border-right: 1px solid black;
+  border-right: 1px solid var(--bg);
 }
 
 header.page .bottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.25px;
+  gap: 0.25rem;
 
-  padding: 0.25px;
+  padding: 0.25rem;
 }
 
 header.page .bottom h1 {
-  padding: 1px;
+  padding: 1rem;
 
   text-align: center;
-  color: blanchedalmond;
+  color: var(--fg);
 }
+
 header.page .bottom form {
   display: flex;
   flex: 1;
@@ -56,12 +57,12 @@ header.page .bottom form input {
 
   outline: 0;
   border: 0;
-  border-bottom: 1px solid black;
-  padding: 0.25px 0.5px;
+  border-bottom: 1px solid var(--fg);
+  padding: 0.25rem 0.5rem;
 }
 
 header.page .bottom form button {
-  background: blue;
+  background: var(--fg);
   color: white;
 
   border: 0;
@@ -69,13 +70,13 @@ header.page .bottom form button {
 }
 
 header.page .bottom .ad {
-  background: red;
+  background: rgb(212, 8, 8);
 
   color: white;
   text-align: center;
   font-weight: bold;
 
-  padding: 0.7px;
+  padding: 0.7rem;
 
   flex-shrink: 0;
 }
@@ -92,8 +93,8 @@ header.page .bottom .ad {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 2px;
+    gap: 2ch;
 
-    padding-right: 1px;
+    padding-right: 1rem;
   }
 }

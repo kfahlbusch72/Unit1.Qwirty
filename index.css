@@ -1,7 +1,7 @@
 :root {
   --bg: #eee;
-  --fg: #4040bc;
-  --fg-dark: #3a5fd1;
+  --fg: #44b;
+  --fg-dark: #228;
 }
 
 * {
@@ -40,12 +40,12 @@ a {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0.25px;
+  padding: 0.25rem;
 }
 
 main {
-  padding: 0.25px;
-  padding-right: 0.5px;
+  padding: 0.25rem;
+  padding-right: 0.5rem;
 }
 
 @media (min-width: 720px) {
