@@ -1,1 +1,28 @@
+header.page nav {
+  background-color: dodgerblue;
+  color: white;
+}
 
+header.page a:hover {
+  text-decoration: underline;
+}
+
+header.page .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header.page menu {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+header.page menu.screen-lg {
+  display: none;
+}
+
+header.page menu li {
+  padding: 0.25px;
+}
