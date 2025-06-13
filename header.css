@@ -26,3 +26,74 @@ header.page menu.screen-lg {
 header.page menu li {
   padding: 0.25px;
 }
+
+header.page menu li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+header.page .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25px;
+
+  padding: 0.25px;
+}
+
+header.page .bottom h1 {
+  padding: 1px;
+
+  text-align: center;
+  color: blanchedalmond;
+}
+header.page .bottom form {
+  display: flex;
+  flex: 1;
+}
+
+header.page .bottom form input {
+  flex: 1;
+
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 0.25px 0.5px;
+}
+
+header.page .bottom form button {
+  background: blue;
+  color: white;
+
+  border: 0;
+  padding: 0.25rem;
+}
+
+header.page .bottom .ad {
+  background: red;
+
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+  padding: 0.7px;
+
+  flex-shrink: 0;
+}
+
+@media (min-width: 720px) {
+  header.page menu.screen-lg {
+    display: flex;
+  }
+  header.page menu.screen-sm {
+    display: none;
+  }
+
+  header.page .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+
+    padding-right: 1px;
+  }
+}
