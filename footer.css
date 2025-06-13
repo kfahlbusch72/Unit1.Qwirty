@@ -1,0 +1,36 @@
+footer.page {
+  background-color: cornflowerblue;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  padding: 2 0.5px;
+}
+
+footer.page h2 {
+  margin-bottom: 0.5px;
+  border-bottom: 2px solid white;
+  padding: 0.25px 0;
+}
+
+footer.page menu {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
+}
+
+footer.page menu a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+  footer.page {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+}
